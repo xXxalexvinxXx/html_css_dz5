@@ -1,0 +1,222 @@
+@font-face {
+	font-family: "Gilroy";
+	src: url("./font/Gilroy-Medium.woff2");
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Gilroy";
+	src: url("./font/Gilroy-Semibold.woff2");
+	font-weight: bold;
+}
+@font-face {
+	font-family: "Gilroy";
+	src: url("./font/Gilroy-Bold.woff2");
+	font-weight: bolder;
+}
+@font-face {
+	font-family: "Gilroy";
+	src: url("./font/Gilroy-Regular.woff2");
+	font-weight: lighter;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+b,
+span,
+button {
+	font-family: "Gilroy";
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.header {
+	margin-top: 40px;
+	margin-bottom: 82px;
+}
+
+.header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navigation {
+	display: flex;
+	max-width: 533px;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.navigation a {
+	text-decoration: none;
+	padding: 0 5px;
+	color: #000;
+	font-weight: lighter;
+}
+
+.navigation a.active {
+	color: #f25822;
+}
+
+.main-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 40px;
+	margin-bottom: 250px;
+}
+
+.main-content__left-side {
+	max-width: 522px;
+}
+
+.main-content__left-side h1 {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.main-content__left-side p {
+	color: #888;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.main-content__left-side-btn-list button {
+	padding: 15px 35px;
+	border: none;
+	cursor: pointer;
+}
+
+.main-content__left-side-btn-list button.orange {
+	background-color: #f25822;
+	border-radius: 50px;
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+	color: #fff;
+}
+
+.main-content__left-side-btn-list button.muted {
+	background-color: #88888800;
+	color: #aaa;
+}
+
+.logos {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 140px;
+}
+
+.logos a {
+	margin: 0 15px;
+}
+
+.productivity {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 60px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.productivity .card {
+	padding: 30px;
+}
+
+.productivity .card.selected {
+	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.productivity .card h3 {
+	font-size: 24px;
+	margin-bottom: 17px;
+}
+
+.productivity .card p {
+	font-size: 15px;
+	font-weight: lighter;
+	margin-bottom: 25px;
+	color: #666;
+}
+
+.productivity .card .more {
+	font-weight: bolder;
+	font-size: 11px;
+}
+
+.choose-us {
+	background: #fafafa;
+	padding: 100px 0;
+}
+
+.choose-us h2 {
+	font-weight: bolder;
+	font-size: 45px;
+	text-align: center;
+	max-width: 580px;
+	margin: 0 auto;
+	margin-bottom: 19px;
+}
+
+.choose-us p {
+	font-weight: lighter;
+	font-size: 16px;
+	text-align: center;
+	color: #666;
+	line-height: 150%;
+	max-width: 690px;
+	margin: 0 auto;
+	margin-bottom: 54px;
+}
+
+.choose-us .card-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+
+.choose-us .card-list .card {
+	background: #fff;
+	padding: 10px 30px 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.choose-us .card-list .card h3 {
+	font-size: 24px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.choose-us .card-list .card p {
+	font-size: 15px;
+	color: #aaa;
+	font-weight: lighter;
+	text-align: center;
+	line-height: 150%;
+}
+
+.choose-us .card-list .card button {
+	color: #fff;
+	background: #f25822;
+	border: none;
+	border-radius: 50px;
+	padding: 15px 35px;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.choose-us .card-list .card button img {
+	margin-left: 6px;
+}
